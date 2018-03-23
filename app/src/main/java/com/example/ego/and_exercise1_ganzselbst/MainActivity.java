@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 //            Fragment myMainFragment = new Main_Fragmentum(); //wir machen mal ein fragmentobjekt
 //            getSupportFragmentManager().beginTransaction().add(R.id.leerer_container, myMainFragment).commit();
             getSupportFragmentManager().beginTransaction().add(R.id.empty_container, new Main_Fragmentum()).commit();
-            // TODO (1.3  finde den FEHLER .. aber wie ??
+            // FIXME (1.3) SOLVED  finde den FEHLER .. aber wie ??  SOLVED:siehe MainFragmentum.java (Robert sei dank)
         }
     }
 }
